@@ -1,0 +1,28 @@
+{
+  "name": "redux-bundler-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html",
+    "test": "tape -r babel-register test/*.js | tap-spec"
+  },
+  "dependencies": {
+    "preact": "8.4.2",
+    "redux-bundler": "23.0.1",
+    "redux-bundler-preact": "1.1.0",
+    "tape": "4.9.1"
+  },
+  "devDependencies": {
+    "@types/tape": "4.2.32",
+    "babel-core": "^6.26.3",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "1.7.0",
+    "babel-preset-preact": "1.1.0",
+    "node-fetch": "^2.3.0",
+    "parcel-bundler": "1.10.3",
+    "tap-spec": "^5.0.0"
+  },
+  "keywords": []
+}
