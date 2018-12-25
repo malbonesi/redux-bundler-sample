@@ -1,7 +1,7 @@
 # redux-sample
 Based on front-end sample requirements below
 
-run `parcel client/index.html` to build and serve
+run `parcel index.html` to build and serve
 
 # Front-End Sample
 Sample project for evaling front-end development techniques and skills.
